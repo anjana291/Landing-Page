@@ -35,7 +35,7 @@ class Landing{
                 this.save();
                 alert('User added successfully')
                 //for navigation
-                window.location="login.html"
+                window.location="index.html"
             }
         }
     }

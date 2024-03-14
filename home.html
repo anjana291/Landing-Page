@@ -40,7 +40,7 @@
   let user = localStorage.getItem("user")
   // console.log(user);
   if(!user){
-    window.location='login.html'
+    window.location='index.html'
   }
   else{
     result.innerHTML = user;
@@ -48,7 +48,7 @@
 
   function logout() {
     localStorage.removeItem("user")
-    window.location='login.html'    
+    window.location='index.html'    
   }
 </script>
 </html>
